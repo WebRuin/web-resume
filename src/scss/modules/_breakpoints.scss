@@ -1,0 +1,1575 @@
+@media only screen and (min-width:320px) {
+  
+  .body-wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    .left {
+      flex: 1;
+      padding: 1rem;
+      background: $black;
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          margin-left: 10px;  
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey; 
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 50%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 48%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 1rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      margin-bottom: 2rem;
+      background:#ddd;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header{
+        padding: 1rem;
+        background-color: $yellow;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+
+      .job-title {
+        padding: 0.25rem 2rem;
+        background: $black;
+        color: #fff;
+      }
+
+      .job-location {
+        padding: 0.25rem 2rem;
+        background: $blue;
+        color: $yellow;
+      }
+
+      .job-date {
+        padding: 0.25rem 2rem;
+        background: #aaa;
+
+      }
+
+      .skills {
+        padding: 0;
+
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          background: $black ;
+          color: #fff;
+
+          li {
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 275px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 3rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+      }
+    }
+
+    p{
+      padding: 0 3rem 2rem 3rem;
+      color: #fff;
+      font-size: 2rem;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+  } // .about
+
+  .portfolio {
+    background: $blue;
+    padding-bottom: 2rem; 
+
+    .portfolio-header {
+      padding: 1rem;
+
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+
+    .portfolio-wrapper {
+      background: $blue;
+      color: $dark-text-color;
+      width:80%;
+      margin: 0 auto;
+
+      .portfolio-peice {
+        background: #fff;
+        -webkit-box-shadow: -1px 6px 19px -2px rgba(0,0,0,0.5);
+        -moz-box-shadow: -1px 6px 19px -2px rgba(0,0,0,0.5);
+        box-shadow: -1px 6px 19px -2px rgba(0,0,0,0.5);
+        padding-bottom: 1rem;
+        margin-bottom: 3rem;
+
+        &:last-of-type {
+          border-bottom: none;
+        }
+
+        p {
+          padding: 1rem
+        }
+
+        a {
+          color: $dark-text-color;
+          text-decoration: none;
+          border-bottom: 1px dotted $dark-text-color;
+        }
+
+        div {
+          display: flex;
+          align-items: baseline;
+          background: $black;
+
+          i {
+            color: #fff;
+          }
+
+          h3 {
+            a {
+              display: block;
+              color: #fff;
+              font-size: 2rem;
+              text-decoration: none;
+              padding: 2rem 0.5rem 2rem 2rem;
+            }
+          }
+        }
+        .img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  
+  .contact{
+    background: $black;
+    padding-bottom: 4rem;  
+  
+    .contact-header{
+      padding: 1rem;
+      
+  
+      h2 {
+        color: $yellow;
+        font-size: 2.5rem;
+      }      
+    }
+  
+    .contact-wrapper {
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+
+        li{
+          flex-grow: 1;
+          width: 50%;
+          display: flex;
+          font-size: 1.75rem;
+          
+          .fab, .fas {
+            color: $yellow;
+            padding-right: 1.5rem;
+          } 
+        
+          a {
+            color: $yellow;
+            text-decoration: none;
+          }
+        }   
+      }  
+    }
+  }
+
+}
+@media only screen and (min-width:480px) {
+  
+  .body-wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 1;
+      padding: 1rem;
+      background: $black;
+
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          margin-left: 10px;  
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey; 
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 25%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 32%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 2rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      margin-bottom: 2rem;
+      background:#ddd;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header{
+        padding: 1rem;
+        background-color: $yellow;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 275px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 3rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+      }
+    }
+
+    p{
+      padding: 0 3rem 2rem 3rem;
+      color: #fff;
+      font-size: 2rem;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+  } // .about
+  
+  .contact{
+    background: $black;
+  
+    .contact-header{
+      padding: 1rem;
+  
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  
+    .contact-wrapper {
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+
+        li{
+          flex-grow: 1;
+          width: 33%;
+          display: flex;
+          font-size: 1.75rem;
+          
+          .fab, .fas {
+            color: $yellow;
+            padding-right: 1.5rem;
+          } 
+        
+          a {
+            color: $yellow;
+            text-decoration: none;
+          }
+        }   
+      }  
+    }
+  }
+
+}
+@media only screen and (min-width:768px) {
+  
+  .body-wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 1;
+      padding: 1rem;
+      background: $black;
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          margin-left: 10px;  
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey;
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 25%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 48%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-around;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 2rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      width: 48%;
+      margin-bottom: 2rem;
+      background: #fff;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header{
+        padding: 1rem;
+        background-color: $yellow;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 275px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 3rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+      }
+    }
+
+    p{
+      padding: 0 3rem 2rem 3rem;
+      color: #fff;
+      font-size: 2rem;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    }
+  } // .about
+
+  .contact{
+    background: $black;
+  
+    .contact-header{
+      padding: 1rem;
+  
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  
+    .contact-wrapper {
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+
+        li{
+          flex-grow: 1;
+          width: 25%;
+          display: flex;
+          font-size: 1.75rem;
+          
+          .fab, .fas {
+            color: $yellow;
+            padding-right: 1.5rem;
+          } 
+        
+          a {
+            color: $yellow;
+            text-decoration: none;
+          }
+        }   
+      }  
+    }
+  }
+
+}
+@media only screen and (min-width:1024px) {
+  
+  .body-wrapper{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 1;
+      padding: 1rem;
+      background: $black;
+
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          margin-left: 10px;  
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey; 
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 25%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 48%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 2rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      margin-bottom: 2rem;
+      background:#ddd;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header{
+        padding: 1rem;
+        background-color: $yellow;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 250px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 1rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  } // .about
+  
+  .contact{
+    background: $black;
+  
+    .contact-header{
+      padding: 1rem;
+  
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  
+    .contact-wrapper {
+      ul {
+        display: flex;
+        flex: wrap;
+
+        li{
+          width: 33%;
+          display: flex;
+    
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }   
+      }  
+    }
+  }
+
+}
+@media only screen and (min-width:1140px) {
+  body {
+     background: $light-bg-color;
+  }
+  
+  .body-wrapper{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 2;
+      padding: 1rem;
+      background: $black;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          margin-left: 10px;  
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey; 
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 25%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 48%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 2rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      margin-bottom: 2rem;
+      background:#ddd;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header{
+        padding: 1rem;
+        background-color: $yellow;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 250px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 1rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  } // .about
+  
+  .contact{
+    background: $black;
+  
+    .contact-header{
+      padding: 1rem;
+  
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  
+    .contact-wrapper {
+      ul {
+        display: flex;
+        flex: wrap;
+
+        li{
+          width: 33%;
+          display: flex;
+    
+          a {
+            display: block;
+            color: #fff;
+            text-decoration: none;
+            padding: 0 1rem;
+          }
+        }   
+      }  
+    }
+  }
+
+}
+@media only screen and (min-width:1280px) {
+  body {
+     background: $light-bg-color;
+  }
+  
+  .body-wrapper{
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left {
+      flex: 2;
+      padding: 1rem;
+      background: $black;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      div {
+        display: flex;
+        vertical-align: baseline;
+
+        a {
+          text-decoration: none;
+          color: $yellow;
+          padding: 0 1rem;
+        }
+      }
+  
+      h1 {
+        color: $yellow;
+        font-size: 5rem;
+      }
+    }
+  
+    .right {
+      flex: 1;
+      padding: 1rem;
+      background-color: $yellow;
+  
+      h2 {
+        color: $black;
+        font-size: 2.5rem;
+      }
+  
+      h3 {
+        color: $black;
+        font-size: 2rem;
+      }
+    }
+  
+    .nav {
+      width: 100%; 
+      background: $grey; 
+  
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+  
+        li {
+          width: 25%;
+          padding: 15px 0;
+  
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            font-size: 1.75rem;
+            color: $white;
+            text-align: center;
+          }
+        }
+      }
+    }
+  
+  }
+  
+  .resume {
+    .resume-header{
+      padding: 1rem;
+      background-color: $black;
+  
+      h2 {
+        font-size: 2.5rem;
+        color: $yellow;
+      }
+    }
+  
+    .skills {
+      background-color: $yellow;
+      color: $blue;
+      padding: 1rem;
+  
+      h3 {
+        color: $blue;
+        margin-left: 1rem;
+        font-size: 2rem;
+      }
+  
+      .skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+  
+        li {
+          width: 48%;
+          padding: 1rem 1.5rem;
+          margin-bottom: 1rem;
+          display: flex;
+          background: $blue;
+          color: #fff;
+  
+          .skill {
+            width: 50%;
+          }
+          .time {
+            width: 50%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  
+    .work-history{
+        background: $grey;
+  
+        h3{
+          padding: 1rem 1.5rem;
+          font-size: 2rem;
+          color: $black;
+        }
+        .jobs-wrapper {
+          width: 95%;
+          margin: 0 auto;
+          padding: 1rem;
+  
+          .details {
+            padding: 1rem;
+  
+            div {
+              display: flex;
+  
+              p {
+                display: block;
+                margin-left: auto;
+              }
+            }
+          }
+  
+          .description {
+            padding: 0.5rem;
+            ul {
+              li {
+                list-style-type: none;
+                margin-left: 2rem;
+              }
+            }
+          } 
+        } // jobs wrapper
+      } // work history
+  
+    .job {
+      margin-bottom: 2rem;
+      background:#ddd;
+      -webkit-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      -moz-box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+      box-shadow: -1px 6px 12px -2px rgba(102,102,102,1);
+  
+      .job-header {
+        padding: 1rem;
+        background-color: $black;
+        color: #fff;
+  
+        h3 {
+          color: $black;
+        }
+      }
+      
+    } // job
+  }// resume
+  
+  .about {
+    -webkit-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    -moz-box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    box-shadow: inset -1px 6px 19px -2px rgba(102,102,102,1);
+    min-height: 250px;
+    width: 100%;
+    background: linear-gradient($black-alpha, $black-alpha),
+            url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    .about-header {
+      padding: 1rem;
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  } // .about
+  
+  .contact{
+    background: $black;
+  
+    .contact-header{
+      padding: 1rem;
+  
+      h2 {
+        color: #fff;
+        font-size: 2.5rem;
+      }
+    }
+  
+    .contact-wrapper {
+      ul {
+        display: flex;
+        flex: wrap;
+
+        li{
+          width: 33%;
+          display: flex;
+    
+          a {
+            color: #fff;
+            text-decoration: none;
+          }
+        }   
+      }  
+    }
+  }
+}

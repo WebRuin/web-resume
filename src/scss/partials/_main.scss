@@ -1,0 +1,14 @@
+#resume {
+  background: #fff;
+  width: 100%;
+  min-height: 100px;
+}
+
+body {
+  background-image: url("./images/topography.svg"),
+    linear-gradient(110deg, rgba(219, 198, 159, 0.349), #rgba(219, 198, 159, 0.349));
+  background-size: 340px, auto;
+  /* background: white; */
+  background-attachment: fixed;
+  letter-spacing: -1px;
+}

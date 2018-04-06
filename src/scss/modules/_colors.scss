@@ -1,0 +1,28 @@
+$dark-text-color: rgb(71, 36, 15);
+$dark-bg-color: $dark-text-color;
+
+$medium-dark: rgb(147,65,16);
+$lightened-dark-bg-color: lighten($dark-bg-color, 70%);
+
+$highlight: rgb(52, 211, 211);
+$highlight-dark: rgb(15,71,71);
+$highlight-dark-alpha: rgba(15,71,71,0.5);
+
+$light-text-color: lighten($dark-bg-color, 70%);;
+$light-bg-color: $light-text-color;
+
+$black: #000;
+$black-alpha: rgba(0,0,0,0.5);
+
+$grey: rgb(69,76,75);
+$grey-alpha: rgba(69,76,75,0.5);
+
+$blue: rgb(11,12,144);
+$blue-alpha: rgba(11,12,144,0.5);
+
+$white: #fff;
+$white-alpha: rgba(255,255,255,0.5);
+
+$yellow: rgb(224,165,43);
+$yellow-alpha: rgba(224,165,43,0.5);
+
