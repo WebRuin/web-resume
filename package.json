@@ -1,13 +1,13 @@
 {
-  "name": "fastshell",
-  "title": "Fiercely quick and opinionated front-ends",
-  "author": "Hossein Karami",
-  "url": "https://HosseinKarami.github.io/fastshell",
+  "name": "resume",
+  "title": "Web resume",
+  "author": "Tim Smith",
+  "url": "https://tim-smith-resume.surge.sh/",
   "version": "1.0.5",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "http://github.com/HosseinKarami/fastshell.git"
+    "url": "git@github.com:WebRuin/Resume.git"
   },
   "devDependencies": {
     "browser-sync": "^2.11.1",

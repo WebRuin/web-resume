@@ -95,9 +95,10 @@ body {
   letter-spacing: -1px; }
 
 .footer {
-  background-color: #e0a52b;
-  color: #0b0c90;
-  padding: 2rem 1rem; }
+  background-color: #fff;
+  color: #96858f;
+  padding: 2rem 1rem;
+  font-weight: bold; }
 
 @font-face {
   font-family: 'Font-Name';
@@ -129,28 +130,28 @@ body {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background: #000; }
+      background: #96858f; }
       .header .left div {
         display: -ms-flexbox;
         display: flex;
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           margin-left: 10px; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -169,20 +170,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -198,7 +199,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -210,7 +211,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -234,18 +235,18 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #e0a52b;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
     .resume .job .job-title {
       padding: 0.25rem 2rem;
-      background: #000;
+      background: #96858f;
       color: #fff; }
     .resume .job .job-location {
       padding: 0.25rem 2rem;
-      background: #0b0c90;
-      color: #e0a52b; }
+      background: #6d7993;
+      color: #fff; }
     .resume .job .job-date {
       padding: 0.25rem 2rem;
       background: #aaa; }
@@ -258,7 +259,7 @@ body {
             flex-wrap: wrap;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-        background: #000;
+        background: #96858f;
         color: #fff; }
         .resume .job .skills ul li {
           padding: 0.5rem 1rem; }
@@ -266,7 +267,7 @@ body {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 275px;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../../../assets/img/Tim.jpg") no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://firebasestorage.googleapis.com/v0/b/ipeefreely-c2161.appspot.com/o/ezgif.com-gif-maker.webp?alt=media&token=ca0af87d-a232-4046-ae3b-df987ef7df08") no-repeat center center fixed;
     background-size: cover; }
     .about .about-header {
       padding: 3rem; }
@@ -280,7 +281,7 @@ body {
       font-size: 2rem;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   .portfolio {
-    background: #0b0c90;
+    background: #96858f;
     padding-bottom: 2rem; }
     .portfolio .portfolio-header {
       padding: 1rem; }
@@ -288,8 +289,8 @@ body {
         color: #fff;
         font-size: 2.5rem; }
     .portfolio .portfolio-wrapper {
-      background: #0b0c90;
-      color: #47240f;
+      background: #96858f;
+      color: #6d7993;
       width: 80%;
       margin: 0 auto; }
       .portfolio .portfolio-wrapper .portfolio-peice {
@@ -302,32 +303,32 @@ body {
         .portfolio .portfolio-wrapper .portfolio-peice p {
           padding: 1rem; }
         .portfolio .portfolio-wrapper .portfolio-peice a {
-          color: #47240f;
+          color: #6d7993;
           text-decoration: none;
-          border-bottom: 1px dotted #47240f; }
+          border-bottom: 1px dotted #6d7993; }
         .portfolio .portfolio-wrapper .portfolio-peice div {
           display: -ms-flexbox;
           display: flex;
           -ms-flex-align: baseline;
               align-items: baseline;
-          background: #000; }
+          background: #fff; }
           .portfolio .portfolio-wrapper .portfolio-peice div i {
             color: #fff; }
           .portfolio .portfolio-wrapper .portfolio-peice div h3 a {
             display: block;
-            color: #fff;
+            color: #96858f;
             font-size: 2rem;
             text-decoration: none;
             padding: 2rem 0.5rem 2rem 2rem; }
         .portfolio .portfolio-wrapper .portfolio-peice .img {
           width: 100%; }
   .contact {
-    background: #000;
+    background: #6d7993;
     padding-bottom: 4rem; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 2.5rem; }
     .contact .contact-wrapper ul {
       display: -ms-flexbox;
@@ -344,10 +345,10 @@ body {
         display: flex;
         font-size: 1.75rem; }
         .contact .contact-wrapper ul li .fab, .contact .contact-wrapper ul li .fas {
-          color: #e0a52b;
+          color: #fff;
           padding-right: 1.5rem; }
         .contact .contact-wrapper ul li a {
-          color: #e0a52b;
+          color: #fff;
           text-decoration: none; } }
 
 @media only screen and (min-width: 480px) {
@@ -365,28 +366,28 @@ body {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background: #000; }
+      background: #96858f; }
       .header .left div {
         display: -ms-flexbox;
         display: flex;
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           margin-left: 10px; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -405,20 +406,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -434,7 +435,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -446,7 +447,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -470,10 +471,10 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #e0a52b;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
   .about {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 275px;
@@ -492,7 +493,7 @@ body {
       font-size: 2rem;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   .contact {
-    background: #000; }
+    background: #96858f; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {
@@ -513,10 +514,10 @@ body {
         display: flex;
         font-size: 1.75rem; }
         .contact .contact-wrapper ul li .fab, .contact .contact-wrapper ul li .fas {
-          color: #e0a52b;
+          color: #fff;
           padding-right: 1.5rem; }
         .contact .contact-wrapper ul li a {
-          color: #e0a52b;
+          color: #fff;
           text-decoration: none; } }
 
 @media only screen and (min-width: 768px) {
@@ -534,28 +535,28 @@ body {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background: #000; }
+      background: #96858f; }
       .header .left div {
         display: -ms-flexbox;
         display: flex;
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           margin-left: 10px; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -574,20 +575,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -603,7 +604,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -615,7 +616,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -646,10 +647,10 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #e0a52b;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
   .about {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 275px;
@@ -668,7 +669,7 @@ body {
       font-size: 2rem;
       text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5); }
   .contact {
-    background: #000; }
+    background: #96858f; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {
@@ -689,10 +690,10 @@ body {
         display: flex;
         font-size: 1.75rem; }
         .contact .contact-wrapper ul li .fab, .contact .contact-wrapper ul li .fas {
-          color: #e0a52b;
+          color: #fff;
           padding-right: 1.5rem; }
         .contact .contact-wrapper ul li a {
-          color: #e0a52b;
+          color: #fff;
           text-decoration: none; } }
 
 @media only screen and (min-width: 1024px) {
@@ -710,28 +711,28 @@ body {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background: #000; }
+      background: #96858f; }
       .header .left div {
         display: -ms-flexbox;
         display: flex;
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           margin-left: 10px; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -750,20 +751,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -779,7 +780,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -791,7 +792,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -815,10 +816,10 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #e0a52b;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
   .about {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 250px;
@@ -831,7 +832,7 @@ body {
         color: #fff;
         font-size: 2.5rem; }
   .contact {
-    background: #000; }
+    background: #96858f; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {
@@ -852,7 +853,7 @@ body {
 
 @media only screen and (min-width: 1140px) {
   body {
-    background: #f3d8c8; }
+    background: white; }
   .body-wrapper {
     height: 100%;
     width: 80%;
@@ -868,7 +869,7 @@ body {
       -ms-flex: 2;
           flex: 2;
       padding: 1rem;
-      background: #000;
+      background: #96858f;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: end;
@@ -881,21 +882,21 @@ body {
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           margin-left: 10px; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -914,20 +915,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -943,7 +944,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -955,7 +956,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -979,10 +980,10 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #e0a52b;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
   .about {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 250px;
@@ -995,7 +996,7 @@ body {
         color: #fff;
         font-size: 2.5rem; }
   .contact {
-    background: #000; }
+    background: #96858f; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {
@@ -1018,7 +1019,7 @@ body {
 
 @media only screen and (min-width: 1280px) {
   body {
-    background: #f3d8c8; }
+    background: white; }
   .body-wrapper {
     height: 100%;
     width: 80%;
@@ -1034,7 +1035,7 @@ body {
       -ms-flex: 2;
           flex: 2;
       padding: 1rem;
-      background: #000;
+      background: #96858f;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-align: end;
@@ -1047,21 +1048,21 @@ body {
         vertical-align: baseline; }
         .header .left div a {
           text-decoration: none;
-          color: #e0a52b;
+          color: #fff;
           padding: 0 1rem; }
       .header .left h1 {
-        color: #e0a52b;
+        color: #fff;
         font-size: 5rem; }
     .header .right {
       -ms-flex: 1;
           flex: 1;
       padding: 1rem;
-      background-color: #e0a52b; }
+      background-color: #fff; }
       .header .right h2 {
-        color: #000;
+        color: #96858f;
         font-size: 2.5rem; }
       .header .right h3 {
-        color: #000;
+        color: #96858f;
         font-size: 2rem; }
     .header .nav {
       width: 100%;
@@ -1080,20 +1081,20 @@ body {
             height: 100%;
             text-decoration: none;
             font-size: 1.75rem;
-            color: #fff;
+            color: #9099a2;
             text-align: center; }
   .resume .resume-header {
     padding: 1rem;
-    background-color: #000; }
+    background-color: #96858f; }
     .resume .resume-header h2 {
       font-size: 2.5rem;
-      color: #e0a52b; }
+      color: #fff; }
   .resume .skills {
-    background-color: #e0a52b;
-    color: #0b0c90;
+    background-color: #fff;
+    color: #96858f;
     padding: 1rem; }
     .resume .skills h3 {
-      color: #0b0c90;
+      color: #96858f;
       margin-left: 1rem;
       font-size: 2rem; }
     .resume .skills .skills-grid {
@@ -1109,7 +1110,7 @@ body {
         margin-bottom: 1rem;
         display: -ms-flexbox;
         display: flex;
-        background: #0b0c90;
+        background: #96858f;
         color: #fff; }
         .resume .skills .skills-grid li .skill {
           width: 50%; }
@@ -1121,7 +1122,7 @@ body {
     .resume .work-history h3 {
       padding: 1rem 1.5rem;
       font-size: 2rem;
-      color: #000; }
+      color: #fff; }
     .resume .work-history .jobs-wrapper {
       width: 95%;
       margin: 0 auto;
@@ -1145,10 +1146,10 @@ body {
     box-shadow: -1px 6px 12px -2px #666666; }
     .resume .job .job-header {
       padding: 1rem;
-      background-color: #000;
+      background-color: #fff;
       color: #fff; }
       .resume .job .job-header h3 {
-        color: #000; }
+        color: #934110; }
   .about {
     box-shadow: inset -1px 6px 19px -2px #666666;
     min-height: 250px;
@@ -1161,7 +1162,7 @@ body {
         color: #fff;
         font-size: 2.5rem; }
   .contact {
-    background: #000; }
+    background: #96858f; }
     .contact .contact-header {
       padding: 1rem; }
       .contact .contact-header h2 {

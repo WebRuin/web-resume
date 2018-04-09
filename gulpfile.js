@@ -70,3 +70,6 @@ gulp.task('default', ['css', 'js', 'browser-sync'], function () {
     gulp.watch("src/js/*.js", ['js']);
     gulp.watch("app/*.html", ['bs-reload']);
 });
+
+gulp.task('build', ['css', 'js'], function () {
+});
