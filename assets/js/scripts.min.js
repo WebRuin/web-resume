@@ -1,8 +1,8 @@
 /*!
- * fastshell
- * Fiercely quick and opinionated front-ends
- * https://HosseinKarami.github.io/fastshell
- * @author Hossein Karami
+ * resume
+ * Web resume
+ * https://tim-smith-resume.surge.sh/
+ * @author Tim Smith
  * @version 1.0.5
  * Copyright 2018. MIT licensed.
  */
