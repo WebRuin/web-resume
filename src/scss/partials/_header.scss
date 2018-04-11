@@ -1,10 +1,69 @@
-.header {
-
+html, body {
+  background: $slate-blue;
+  color: $white;
 }
-.logo {
-  margin: -100px 0 0 -84px;
-  @include position(absolute, 50% 0 0 50%);
-  img {
 
+.header {
+  display: flex;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: $white 4px solid;
+  background: $blue;
+
+  .left {
+    display: flex;
+    align-items: center;
+
+    div {
+      width: 15%;
+    }
+  }
+
+  .header-contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+    a {
+      display: block;
+      color: $white;
+      text-decoration: none;
+      font-size: 1.7rem;
+    }
+  }
+
+  .nav {
+    ul {
+      display: flex;
+      justify-content: space-evenly;
+
+      li {
+        background: $slate-blue-dark;
+        width: 24%;
+        padding: 0.5rem 0;
+        border: $white 2px solid;
+
+        a {
+          display: block;
+          width: 100%;
+          text-decoration: none;
+          color: $white;
+        }
+      }
+    }
+  }
+
+  h1 {
+    color: $white;
+    text-transform: capitalize;
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 2rem;
   }
 }

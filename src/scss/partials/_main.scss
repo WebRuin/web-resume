@@ -1,14 +1,221 @@
-#resume {
-  background: #fff;
-  width: 100%;
-  min-height: 100px;
-}
+.main {
+  .resume-header {
+    h2 {
+      font-size: 2.5rem;
+      text-align: center;
+    }    
+  }
 
-body {
-  background-image: url("./images/topography.svg"),
-    linear-gradient(110deg, rgba(219, 198, 159, 0.349), #rgba(219, 198, 159, 0.349));
-  background-size: 340px, auto;
-  /* background: white; */
-  background-attachment: fixed;
-  letter-spacing: -1px;
+  .skills {
+    padding: 1rem;  
+    h3 {
+      font-size: 2rem;
+    } 
+
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      li {
+        width: 32%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: $white;
+        margin-bottom: 1rem;
+        color: $slate-blue;
+        padding: 0.25rem;
+      }
+    }
+  }
+
+  .work-history {
+
+    h3 {
+      font-size: 2rem;
+      padding: 1rem;
+    }
+
+    .job {
+      margin-bottom: 1.5rem;
+      background: $blue;
+      -webkit-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+      box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+
+      .job-header {
+        padding: 0.5rem;
+        background: $slate-blue-dark;
+      }
+      
+      .job-title {
+        padding: 0.5rem;
+        background: $slate-blue;
+      }
+      
+      .job-location {
+        padding: 0.5rem;
+        background: $slate-blue-light;
+      }
+      
+      .job-date {
+        padding: 0.5rem;
+        background: $blue-light;
+        color: $slate-blue-dark;
+      }
+
+      .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+  
+        li {
+          width: 32%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          background: $white;
+          margin-bottom: 1rem;
+          color: $slate-blue;
+          padding: 0.25rem;
+        }
+      }
+
+      .description {
+        padding: 0 1rem 2rem 1rem;
+
+        li {
+          list-style: disc;
+          margin: 0.5rem 2rem;
+        }
+      }
+    }
+  }
+
+  .about {
+    position: relative;
+    background: url('../img/Tim.webp') no-repeat;
+    background-size: cover;
+    color: $white;
+    padding: 10rem;
+    -webkit-box-shadow: inset 0px 0px 10px 0px #000;
+    -moz-box-shadow: inset 0px 0px 10px 0px #000;
+    box-shadow: inset 0px 0px 10px 0px #000;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right,$slate-blue-dark,$slate-blue-dark);
+      opacity: .6; 
+      z-index: 1;
+    }
+
+    p {
+      position: relative;
+      color: $white;
+      text-align: center;
+      z-index: 2;
+    }
+
+    .about-header {
+      position: relative;
+      z-index: 2;
+
+      h2 {
+        color: $white;
+        font-size: 3rem;
+        text-align: center;
+      }
+    }
+  }
+
+  .portfolio {
+    .portfolio-header {
+      position: relative;
+
+      h2 {
+        color: $white;
+        font-size: 3rem;
+        text-align: center;
+      }
+    }
+    .portfolio-wrapper {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .portfolio-peice {
+      width: 45%;
+      margin:1rem;
+      background: $slate-blue-light;
+      margin-bottom: 2rem;
+      -webkit-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+      box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+
+      .portfilio-peice-header {
+        padding: 1rem;
+        background: $slate-blue-dark;
+        h3 {
+          a {
+            color:$white;
+            text-decoration: none;
+            font-size: 1.5rem;
+          }
+        }
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        padding: 1rem;
+        background: $blue-light;
+        color: $slate-blue-dark;
+        font-size: 1.7rem;
+      }
+    }
+    
+    
+  }
+
+  .contact {
+    background: $blue;
+
+    .contact-header {
+      padding: 1rem;
+
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    .contact-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding-bottom: 2rem;
+
+      li {
+        display: flex;
+        width: 25%;
+        margin: 0 2rem;
+        text-align: center;
+
+        a {
+          color: $white;
+          padding-left: 1rem;
+          text-decoration: none;
+          text-align: center;
+        }
+      }
+    }
+  }
+
 }

@@ -1,28 +1,7 @@
-$dark-text-color: #6d7993;
-$dark-bg-color: $dark-text-color;
+$slate-blue: #2b4e66;
+$slate-blue-dark: #203a4c;
+$slate-blue-light: #305873;
+$blue: #4b88b2;
+$blue-light: #66b9f2;
 
-$medium-dark: rgb(147,65,16);
-$lightened-dark-bg-color: lighten($dark-bg-color, 70%);
-
-$highlight: ;
-$highlight-dark: rgb(15,71,71);
-$highlight-dark-alpha: rgba(15,71,71,0.5);
-
-$light-text-color: lighten($dark-bg-color, 70%);;
-$light-bg-color: $light-text-color;
-
-$black: #96858f;
-$black-alpha: rgba(0,0,0,0.5);
-
-$grey: rgb(69,76,75);
-$grey-alpha: rgba(69,76,75,0.5);
-
-$blue: #96858f  ;
-$blue-alpha: rgba(11,12,144,0.5);
-
-$white: #9099a2;
-$white-alpha: rgba(255,255,255,0.5);
-
-$yellow: #fff;
-$yellow-alpha: rgba(224,165,43,0.5);
-
+$white: #fff;
