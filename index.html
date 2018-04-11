@@ -451,7 +451,33 @@
 
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-53250287-2"></script>
     <script>
-      //lazyload
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-53250287-2');
+
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('./sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
+
+
+      /* lazyload.js (c) Lorenzo Giuliani
+      * MIT License (http://www.opensource.org/licenses/mit-license.html)
+      *
+      * expects a list of:  
+      * `<img src="blank.gif" data-src="my_image.png" width="600" height="400" class="lazy">`
+      */
+
       !function(window){
         var $q = function(q, res){
               if (document.querySelectorAll) {
@@ -525,25 +551,6 @@
           addEventListener('scroll',processScroll);
 
       }(this);​
-      //End lazyload
-
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-53250287-2');
-
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('./sw.js').then(function(registration) {
-            // Registration was successful
-            console.log('ServiceWorker registration successful with scope: ', registration.scope);
-          }, function(err) {
-            // registration failed :(
-            console.log('ServiceWorker registration failed: ', err);
-          });
-        });
-      }
     </script>
 
   </body>
