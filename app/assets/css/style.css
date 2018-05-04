@@ -246,7 +246,7 @@ body {
       z-index: 2; }
     .main .about .left p:last-of-type {
       padding: 0 1.5rem 2rem 1.5rem; }
-  .main .about .right img {
+  .main .about .right app-img {
     display: block;
     width: 74%;
     margin: 0 0 -2rem auto;
@@ -293,7 +293,7 @@ body {
         color: #fff;
         text-decoration: none;
         font-size: 1.5rem; }
-    .main .portfolio .portfolio-peice img {
+    .main .portfolio .portfolio-peice amp-img {
       max-width: 100%; }
     .main .portfolio .portfolio-peice p {
       padding: 1rem;
