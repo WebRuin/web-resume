@@ -111,6 +111,14 @@ body {
       color: #fff;
       text-decoration: none;
       font-size: 1.7rem; }
+  .header .nav.fixed {
+    position: fixed;
+    background: #333;
+    padding: 1rem 0;
+    border-bottom: 3px solid #fff;
+    width: 1200px;
+    z-index: 9999;
+    margin: 0 auto; }
   .header .nav ul {
     display: -ms-flexbox;
     display: flex;
@@ -219,7 +227,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  -ms-flex-direction: row;
+      flex-direction: row; }
   .main .about .left {
     width: 50%;
     padding-top: 4rem; }
@@ -246,40 +256,41 @@ body {
       font-size: 3rem;
       text-align: center; }
 
-.main .portfolio .portfolio-header {
-  position: relative; }
-  .main .portfolio .portfolio-header h2 {
-    color: #fff;
-    font-size: 3rem;
-    text-align: center; }
-
-.main .portfolio .portfolio-wrapper {
-  width: 100%;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
-
-.main .portfolio .portfolio-peice {
-  width: 45%;
-  margin: 1rem;
-  background: #305873;
-  margin-bottom: 2rem;
-  box-shadow: -1px 2px 9px 0px rgba(0, 0, 0, 0.75); }
-  .main .portfolio .portfolio-peice .portfilio-peice-header {
-    padding: 1rem;
-    background: #203a4c; }
-    .main .portfolio .portfolio-peice .portfilio-peice-header h3 a {
+.main .portfolio {
+  background: #2b4e66; }
+  .main .portfolio .portfolio-header {
+    position: relative; }
+    .main .portfolio .portfolio-header h2 {
       color: #fff;
-      text-decoration: none;
-      font-size: 1.5rem; }
-  .main .portfolio .portfolio-peice img {
-    max-width: 100%; }
-  .main .portfolio .portfolio-peice p {
-    padding: 1rem;
-    background: #66b9f2;
-    color: #203a4c;
-    font-size: 1.7rem; }
+      font-size: 3rem;
+      text-align: center;
+      padding: 2rem 0 1rem 0; }
+  .main .portfolio .portfolio-wrapper {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+  .main .portfolio .portfolio-peice {
+    width: 45%;
+    margin: 1rem;
+    background: #305873;
+    margin-bottom: 2rem;
+    box-shadow: -1px 2px 9px 0px rgba(0, 0, 0, 0.75); }
+    .main .portfolio .portfolio-peice .portfilio-peice-header {
+      padding: 1rem;
+      background: #203a4c; }
+      .main .portfolio .portfolio-peice .portfilio-peice-header h3 a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem; }
+    .main .portfolio .portfolio-peice img {
+      max-width: 100%; }
+    .main .portfolio .portfolio-peice p {
+      padding: 1rem;
+      background: #66b9f2;
+      color: #203a4c;
+      font-size: 1.7rem; }
 
 .main .contact {
   background: #333;
@@ -350,6 +361,8 @@ body {
     .header .nav {
       -ms-flex-order: 4;
           order: 4; }
+      .header .nav.fixed {
+        width: 100%; }
     .header .about {
       padding: 2rem; }
   .main .skills .skills-grid li {
@@ -400,7 +413,11 @@ body {
     width: 1200px;
     margin: 0 auto; }
   .main .skills .skills-grid li {
-    width: 32%; } }
+    width: 32%; }
+  .main .about {
+    padding: 3rem; }
+    .main .about .left, .main .about .right {
+      width: 50%; } }
 
 @media print {
   * {

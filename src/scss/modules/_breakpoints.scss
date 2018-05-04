@@ -26,6 +26,10 @@
 
     .nav {
       order: 4;
+
+      &.fixed {
+        width: 100%;
+      }
     }
 
     .about {
@@ -130,6 +134,14 @@
 
     .portfolio {
       .portfolio-wrapper {
+      }
+    }
+
+    .about {
+      padding: 3rem;
+
+      .left, .right {
+        width: 50%;
       }
     }
   }

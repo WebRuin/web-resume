@@ -103,6 +103,7 @@
     padding: 4rem;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row; 
 
     .left {
       width: 50%;
@@ -141,6 +142,7 @@
   }
 
   .portfolio {
+    background: $slate-blue;
     .portfolio-header {
       position: relative;
 
@@ -148,6 +150,7 @@
         color: $white;
         font-size: 3rem;
         text-align: center;
+        padding: 2rem 0 1rem 0;
       }
     }
     .portfolio-wrapper {
