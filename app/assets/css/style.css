@@ -113,7 +113,7 @@ body {
       font-size: 1.7rem; }
   .header .nav.fixed {
     position: fixed;
-    background: #333;
+    background: rgba(51, 51, 51, 0.75);
     padding: 1rem 0;
     border-bottom: 3px solid #fff;
     width: 1200px;
@@ -144,7 +144,8 @@ body {
   list-style: none; }
 
 .main .resume {
-  background: #305873; }
+  background: #305873;
+  padding-top: 2rem; }
 
 .main .resume-header h2 {
   font-size: 2.5rem;
@@ -172,7 +173,13 @@ body {
       background: #fff;
       margin-bottom: 1rem;
       color: #2b4e66;
-      padding: 0.25rem; }
+      box-shadow: -1px 2px 9px 0px rgba(0, 0, 0, 0.75); }
+      .main .skills .skills-grid li .skill {
+        padding: 0.25rem 0.5rem; }
+      .main .skills .skills-grid li .time {
+        background: #333;
+        padding: 0.25rem 0.5rem;
+        color: #fff; }
 
 .main .work-history h3 {
   font-size: 2rem;
@@ -223,7 +230,6 @@ body {
 .main .about {
   background: #333;
   color: #fff;
-  padding: 4rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -231,7 +237,6 @@ body {
   -ms-flex-direction: row;
       flex-direction: row; }
   .main .about .left {
-    width: 50%;
     padding-top: 4rem; }
     .main .about .left p {
       position: relative;
@@ -239,12 +244,16 @@ body {
       font-size: 1.75rem;
       color: #fff;
       z-index: 2; }
-  .main .about .right {
-    width: 50%; }
-    .main .about .right img {
-      display: block;
-      width: 74%;
-      margin: 0 auto; }
+    .main .about .left p:last-of-type {
+      padding: 0 1.5rem 2rem 1.5rem; }
+  .main .about .right img {
+    display: block;
+    width: 74%;
+    margin: 0 0 -2rem auto;
+    -ms-transform: scaleX(-1);
+        transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH"; }
   .main .about .about-header {
     width: 100%;
     position: relative;
@@ -415,9 +424,11 @@ body {
   .main .skills .skills-grid li {
     width: 32%; }
   .main .about {
-    padding: 3rem; }
-    .main .about .left, .main .about .right {
-      width: 50%; } }
+    padding: 4rem 0 0 4rem; }
+    .main .about .left {
+      width: 60%; }
+    .main .about .right {
+      width: 40%; } }
 
 @media print {
   * {

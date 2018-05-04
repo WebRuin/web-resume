@@ -138,10 +138,14 @@
     }
 
     .about {
-      padding: 3rem;
+      padding: 4rem 0 0 4rem;
 
-      .left, .right {
-        width: 50%;
+      .left{
+        width: 60%
+      }
+      
+      .right {
+        width: 40%;
       }
     }
   }

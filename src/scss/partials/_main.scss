@@ -1,6 +1,7 @@
 .main {
   .resume {
     background: $slate-blue-light;
+    padding-top: 2rem;
   }
   .resume-header {
     h2 {
@@ -29,13 +30,24 @@
         background: $white;
         margin-bottom: 1rem;
         color: $slate-blue;
-        padding: 0.25rem;
+        -webkit-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+        box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.75);
+
+        .skill {
+          padding: 0.25rem 0.5rem;
+        }
+
+        .time {
+          background: $dark-gray;
+          padding: 0.25rem 0.5rem;
+          color: $white;
+        }
       }
     }
   }
 
   .work-history {
-
     h3 {
       font-size: 2rem;
       padding: 1rem;
@@ -100,14 +112,13 @@
   .about {
     background: $dark-gray;
     color: $white;
-    padding: 4rem;
-    display: flex;
+    display: flex; 
     flex-wrap: wrap;
     flex-direction: row; 
 
     .left {
-      width: 50%;
       padding-top: 4rem;
+
       p {
         position: relative;
         padding: 0 1.5rem;
@@ -115,14 +126,22 @@
         color: $white;
         z-index: 2;
       }
+
+      p:last-of-type {
+        padding: 0 1.5rem 2rem 1.5rem;
+      }
     }
     .right {
-      width: 50%;
-
       img {
         display: block;
         width: 74%;
-        margin: 0 auto;
+        margin: 0 0 -2rem auto;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
       }
     }
 
@@ -191,8 +210,6 @@
         font-size: 1.7rem;
       }
     }
-    
-    
   }
 
   .contact {
