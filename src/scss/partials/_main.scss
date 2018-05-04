@@ -1,13 +1,17 @@
 .main {
+  .resume {
+    background: $slate-blue-light;
+  }
   .resume-header {
     h2 {
       font-size: 2.5rem;
       text-align: center;
-    }    
+    }
   }
 
   .skills {
-    padding: 1rem;  
+    padding: 1rem;
+    
     h3 {
       font-size: 2rem;
     } 
@@ -94,37 +98,39 @@
   }
 
   .about {
-    position: relative;
-    background: url('../img/Tim.webp') no-repeat;
-    background-size: cover;
+    background: $dark-gray;
     color: $white;
-    padding: 10rem;
-    -webkit-box-shadow: inset 0px 0px 10px 0px #000;
-    -moz-box-shadow: inset 0px 0px 10px 0px #000;
-    box-shadow: inset 0px 0px 10px 0px #000;
+    padding: 4rem;
+    display: flex;
+    flex-wrap: wrap;
 
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-image: linear-gradient(to bottom right,$slate-blue-dark,$slate-blue-dark);
-      opacity: .6; 
-      z-index: 1;
+    .left {
+      width: 50%;
+      padding-top: 4rem;
+      p {
+        position: relative;
+        padding: 0 1.5rem;
+        font-size: 1.75rem;
+        color: $white;
+        z-index: 2;
+      }
     }
+    .right {
+      width: 50%;
 
-    p {
-      position: relative;
-      color: $white;
-      text-align: center;
-      z-index: 2;
+      img {
+        display: block;
+        width: 74%;
+        margin: 0 auto;
+      }
     }
 
     .about-header {
+      width: 100%;
       position: relative;
+      font-size: 3rem;
       z-index: 2;
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
 
       h2 {
         color: $white;
@@ -187,15 +193,8 @@
   }
 
   .contact {
-    background: $blue;
-
-    .contact-header {
-      padding: 1rem;
-
-      h2 {
-        font-size: 2rem;
-      }
-    }
+    background: $dark-gray;
+    padding-top: 2rem;
     .contact-wrapper {
       display: flex;
       flex-wrap: wrap;
