@@ -113,7 +113,37 @@
 }
 @media only screen and (min-width:1140px) {
   
+  .body-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+  }
   
+  .main {
+    .skills {
+      .skills-grid {
+        li {
+          width: 32%;
+        }
+      }
+    }
+
+    .portfolio {
+      .portfolio-wrapper {
+      }
+    }
+
+    .about {
+      padding: 4rem 0 0 4rem;
+
+      .left{
+        width: 60%
+      }
+      
+      .right {
+        width: 40%;
+      }
+    }
+  }
 
 }
 @media only screen and (min-width:1280px) {

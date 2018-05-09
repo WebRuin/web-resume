@@ -417,6 +417,19 @@ body {
   .main .work-history .job {
     width: 49%; } }
 
+@media only screen and (min-width: 1140px) {
+  .body-wrapper {
+    width: 1200px;
+    margin: 0 auto; }
+  .main .skills .skills-grid li {
+    width: 32%; }
+  .main .about {
+    padding: 4rem 0 0 4rem; }
+    .main .about .left {
+      width: 60%; }
+    .main .about .right {
+      width: 40%; } }
+
 @media only screen and (min-width: 1280px) {
   .body-wrapper {
     width: 1200px;
