@@ -112,6 +112,7 @@ body {
       text-decoration: none;
       font-size: 1.7rem; }
   .header .nav.fixed {
+    width: 89%;
     position: fixed;
     background: rgba(51, 51, 51, 0.75);
     padding: 1rem 0;
@@ -222,7 +223,8 @@ body {
       color: #2b4e66;
       padding: 0.25rem; }
   .main .work-history .job .description {
-    padding: 0 1rem 2rem 1rem; }
+    padding: 0 1rem 2rem 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); }
     .main .work-history .job .description li {
       list-style: disc;
       margin: 0.5rem 2rem; }
@@ -317,7 +319,8 @@ body {
       display: flex;
       width: 25%;
       margin: 0 2rem;
-      text-align: center; }
+      text-align: center;
+      font-size: 2rem; }
       .main .contact .contact-wrapper li a {
         color: #fff;
         padding-left: 1rem;

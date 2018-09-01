@@ -50,6 +50,7 @@
   .nav {
 
     &.fixed {
+      width: 89%;
       position: fixed;
       background: $dark-gray-alpha;
       padding: 1rem 0;
